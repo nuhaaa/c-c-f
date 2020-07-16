@@ -267,7 +267,7 @@
 			labelsArray.push(newLabels[i].replace("[", "").replace("]", ""));
 		}
 		var myChart = new Chart(ctx, {
-			type : 'line',
+			type : 'bar',
 			data : {
 				labels : labelsArray,
 				datasets : [ {
@@ -371,7 +371,7 @@
 			labelsArray.push(newLabels[i].replace("[", "").replace("]", ""));
 		}
 		var myChart = new Chart(ctx, {
-			type : 'polarArea',
+			type : 'pie',
 			data : {
 				labels : labelsArray,
 				datasets : [ {
