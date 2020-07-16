@@ -1,0 +1,175 @@
+html,body{
+    height: 100%;
+}
+
+/*********************************************************************************
+
+HEADER STYLE
+
+*********************************************************************************/
+.navbar-default{
+    z-index: 9999;
+    border: 0px;
+    border-bottom: 2px solid rgb(42,63,84);
+    margin-bottom: 0px;
+    background-color: rgb(42,63,84);
+}
+navbar-default .navbar-nav>li>a {
+    color: black !important;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff !important;
+}
+.navbar-brand{
+    margin-right: 50px;
+    color:#fff !important;
+}
+ .navbar-minimalize{
+       border: 0px;
+    display: inline-block;
+    margin-right: 15px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 15px;
+    line-height: 30px;
+}
+.navbar-minimalize:hover,  .navbar-minimalize:focus{
+    outline: 0 !important;
+}
+body:not(.fixed-sidebar):not(.canvas-menu).mini-navbar .nav-second-level {
+    display: none;
+}
+
+.nav-header img{
+    width: 90px;
+    margin-bottom: 10px;
+}
+.nav-header span{
+    color: #848c94;
+       text-align: center;
+}
+.nav-header .dropdown-menu li i{
+    margin-right: 5px;
+}
+.nav-header .dropdown-menu li a{
+    color:black;
+    font-size: 13px;
+}
+.nav-header .dropdown-menu li a:hover{
+    color:  rgb(42,63,84);
+}
+
+.nav-top li:hover{
+    background-color: rgb(166,82,26);
+}
+/********************************************************** End header style***************************************/
+
+
+body{
+    font-family: fantasy, sans-serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color:black;
+    background-image:url(../images/home.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.contenu {
+    margin: 100px 50px 20px 50px;
+    min-width: 600px;
+}
+
+.bouton-grand{
+    background-color: rgb(42,63,84);
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 10px 10px;
+    border-radius: 10px;
+    padding: 20px;
+    color:#fff;
+    width: 450px;
+    
+}
+btn-primary{color:#fff;background-color:#337ab7;border-color:#2e6da4}
+h1 {
+    color:rgb(42,63,84);
+}
+
+h3 {
+    color:rgb(100,100,100);
+}
+
+.box{
+    margin-top:5%;
+    padding-bottom: 15px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 3px;
+    box-shadow: 0 0 1em black;
+}
+
+/****login register accounts***/
+.account{
+    background-image: url(../images/home.jpg);
+    padding-top: 150px;
+}
+.account-col{
+    width:300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.account-col h1{
+    color:gray;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 1px 1px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+}
+.account-col h3{
+    color:#888;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight:400;
+    text-transform: capitalize;
+}
+.account-col .form-control{
+    color:black;
+    border-color: gray;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-style: groove;
+}
+.account-col .btn-primary{
+    border: 0px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    background-color: rgb(42,63,84);
+    margin-bottom: 20px;
+}
+.account-col a, .account-col p{
+    color: #848c94;
+}
+.account-col a:hover{
+    color:rgb(42,63,84);
+}
+.account-col .btn-default{
+    border:0px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    background-color:transparent;
+    margin-bottom: 20px;
+    color:rgb(42,63,84);
+}
+.account-col .btn-default:hover{
+    color:#999;
+    background-color: transparent;
+}

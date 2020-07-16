@@ -1,0 +1,109 @@
+
+.shadow-sm {
+	box-shadow: 0 .4rem .4rem rgba(0, 0, 0, .075) !important;
+}
+
+.card {
+	border: none;
+	border-radius: 3px;
+	background-color: #fff;
+}
+
+.m-b-30 {
+	margin-bottom: 30px;
+}
+
+.card-header:first-child {
+	border-radius: calc(5px - 1px) calc(5px - 1px) 0 0;
+	padding: 15px 20px;
+}
+
+.card-header {
+	border-bottom: 1px solid transparent;
+	background-color: transparent;
+}
+
+.card-header {
+	padding: .75rem 1.25rem;
+	margin-bottom: 0;
+}
+
+.card .card-header .card-title {
+	font-size: 16px;
+	margin-bottom: 0;
+}
+
+.chartjs-size-monitor {
+	position: absolute;
+	direction: ltr;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	pointer-events: none;
+	visibility: hidden;
+	z-index: -1;
+}
+
+.p-lg-2 {
+	padding: .5rem !important;
+}
+
+.pb-2 {
+	padding-bottom: .5rem !important;
+}
+
+.card-body {
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	min-height: 1px;
+	padding: 1.25rem;
+}
+
+.card-footer {
+	background-color: transparent;
+	border-top: 1px solid rgba(0, 0, 0, 0.03);
+	padding: 0.75rem 1.25rem;
+}
+
+.action-icon {
+	width: 50px;
+	height: 50px;
+	line-height: 40px;
+	font-weight: 600;
+	border-radius: 3px;
+	font-size: 20px;
+	text-align: center;
+	margin-right: 15px;
+}
+
+.badge-danger-inverse {
+	background-color: rgba(255, 63, 63, .1);
+	color: #ff3f3f;
+}
+
+.font-30 {
+	font-size: 30px !important;
+}
+
+.mb-0 {
+	margin-bottom: 0 !important;
+}
+
+.text-muted {
+	color: #8a98ac !important;
+}
+
+.font-14 {
+	font-size: 14px !important;
+}
+
+.badge-success-inverse {
+	background-color: rgba(24, 210, 107, .1);
+	color: #18d26b;
+}
+
+.font-13 {
+	font-size: 13px !important;
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="CHU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+	<class>dao.entities.Consentement</class>
+    <class>dao.entities.Couple</class>
+    <class>dao.entities.DossierMedicale</class>
+    <class>dao.entities.ExamenMedical</class>
+    <class>dao.entities.Famille</class>
+    <class>dao.entities.Hopital</class>
+    <class>dao.entities.Individu</class>
+    <class>dao.entities.Medecin</class>
+    <class>dao.entities.RendezVous</class>
+    <class>dao.entities.StatutCancereux</class>
+    <class>dao.entities.Traitement</class>
+    <class>dao.entities.Consentement</class>
+    <class>dao.entities.Decces</class>
+    <class>dao.entities.MotifDecces</class>
+    <class>dao.entities.Consanguin</class>
+    <class>dao.entities.Imagerie</class>
+    <class>dao.entities.Biologie</class>
+    <class>dao.entities.Genetique</class>
+    <class>dao.entities.MutaMMR</class>
+    <class>dao.entities.TypeExerese</class>
+    <class>dao.entities.Complication</class>
+    <class>dao.entities.Elargissement</class>
+    <class>dao.entities.Geste</class>
+    <class>dao.entities.RRscoring</class>
+    <class>dao.entities.Chirurgie</class>
+    <class>dao.entities.TypeIntervention</class>
+    <class>dao.entities.TraitementEndoscopique</class>
+    <class>dao.entities.Chimiotherapie</class>
+    <class>dao.entities.Radiotherapie</class>
+     <class>dao.entities.Forme</class>
+     <class>dao.entities.PriseEnCharge</class>
+     <class>dao.entities.Type</class> 
+     <class>dao.entities.Site</class> 
+     <class>dao.entities.TypeStatut</class>
+    <class>dao.entities.SyndromesPostOp</class>
+    <class>dao.entities.ToucherRectal</class>
+     <class>dao.entities.CategorieSynAnormal</class>  
+     <class>dao.entities.Detail</class>   
+     <class>dao.entities.ExamenClinique</class>
+     <class>dao.entities.ExamenPostOp</class>
+     <class>dao.entities.ExamenPreOp</class> 
+     <class>dao.entities.ExamenPreOpAnormal</class>
+     <class>dao.entities.TypeAndoscopie</class>
+     <class>dao.entities.Polypose</class>  
+     <class>dao.entities.Siege</class> 
+     <class>dao.entities.AspectMacro</class>
+     <class>dao.entities.MasseTumorale</class>
+     <class>dao.entities.Circonference</class> 
+     <class>dao.entities.Endoscopie </class>
+     <class>dao.entities.EndoAnormal</class> 
+     <class>dao.entities.AnaPathologie</class> 
+     <class>dao.entities.TypePrelevement</class> 
+     <class>dao.entities.Tumeur</class>  
+     <class>dao.entities.Polype</class>  
+     <class>dao.entities.TypeHystologique</class>  
+     <class>dao.entities.Differentiation</class>  
+     <class>dao.entities.Stroma</class>  
+     <class>dao.entities.Lesion</class>  
+     <class>dao.entities.NiveauInvasion</class>  
+     <class>dao.entities.SousType</class>  
+     <class>dao.entities.Dysplasie</class>  
+     <class>dao.entities.LimiteResectEndo</class>
+     <class>dao.entities.Utilisateur</class>
+     <class>dao.entities.Infirmier</class>
+     <class>dao.entities.SyndromeFamille</class>
+     <class>dao.entities.ExamenImagerie</class>
+     <class>dao.entities.Administrateur</class>
+      <class>dao.entities.Role</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/registre"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+     <!--  <property name="javax.persistence.schema-generation.database.action" value=""/>
+      <property name="eclipselink.logging.level.sql" value="FINE"/>
+      <property name="eclipselink.logging.parameters" value="true"/> -->
+    </properties>
+  </persistence-unit>
+</persistence>
